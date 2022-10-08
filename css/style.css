@@ -1,0 +1,93 @@
+html, body, form, ul, li, input, button {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    position: relative;
+    height: 100%;
+    background: url("img/0.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    color: #fff;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+button {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, sans-serif;
+    border: 0;
+    background-color: transparent;
+}
+.hidden {
+    display: none;
+}
+.watch {
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    font-family: Courier, sans-serif;
+}
+.clock {
+    font-size: 30px;
+    line-height: 36px;
+}
+.weather {
+    font-size: 20px;
+    line-height: 26px;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.input {
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+.input::placeholder{
+    color: #fff;
+}
+.login_btn {
+    margin-left: 20px;
+    padding: 0 13px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.greeting {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.todo_list {
+    padding-top: 15px;
+    list-style: '✔︎';
+}
+.todo_item {
+    position: relative;
+    padding: 5px 30px 0 5px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.delete_btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 10px;
+    color: #fff;
+}
